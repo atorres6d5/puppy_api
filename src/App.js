@@ -130,6 +130,7 @@ class App extends Component {
             <br/>
             <button type="submit">Search</button>
         </form>
+        <p>Search results provided by <a href="http://www.recipepuppy.com/about/api/">http://www.recipepuppy.com/about/api/</a></p>
         {this.state.result.length>0 ? <div><Results recipies={this.state.result} addMeal={this.addMeal}/>
         <Next currentPage={this.state.page} changePage={this.changePage}/></div> :null}
         <br/>
