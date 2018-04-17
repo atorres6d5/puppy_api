@@ -28,3 +28,7 @@ SUMMERY
 
 I used create-react-app for my front-end framework, and axios for the api calls.
 did not apply css styles to result items, ran out of time. I used localStorage to save meals data for planning feature. normally wound not do this and save this to an api. In sprit of the challenge to make a front-end used localStorage as a substitute.
+
+Directions:
+npm install
+npm run start
